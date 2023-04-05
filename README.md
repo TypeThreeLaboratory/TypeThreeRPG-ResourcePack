@@ -5,10 +5,10 @@ TypeThreeRPGのリソースパック
 ファイル保存場所のルール
 |説明|ファイルの場所|備考|
 |:-----------|:------------:|:-----------|
-|アイテムのテクスチャ|pack/assets/minecraft/textures/item/item/|
+|アイテムのテクスチャ|pack/assets/minecraft/textures/item/item/||
 |エンティティのテクスチャ|pack/assets/minecraft/textures/item/entity/||
-|アイテムのモデル|pack/assets/minecraft/models/item/item/|
-|エンティティのモデル|pack/assets/minecraft/models/item/entity/|
+|アイテムのモデル|pack/assets/minecraft/models/item/item/||
+|エンティティのモデル|pack/assets/minecraft/models/item/entity/||
 
 ## note
 

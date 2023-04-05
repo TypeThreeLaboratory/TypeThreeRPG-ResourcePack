@@ -16,7 +16,7 @@ shutil.make_archive(FILE_NAME, format='zip', root_dir='pack')
 
 logging.info("zipファイルが生成されました")
 logging.info("ファイルの場所:\n" + os.path.abspath('TypeThreeRPG-Pack.zip'))
-logging.info("十秒後にこの画面を閉じます")
+logging.info("10秒後にこの画面を閉じます")
 
 sleep(10)
 
