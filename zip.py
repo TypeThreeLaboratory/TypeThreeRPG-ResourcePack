@@ -1,6 +1,7 @@
 import os
 import logging
 import zipfile
+import hashlib
 from time import sleep
 
 #-----設定部分-----start
@@ -35,16 +36,20 @@ def zipdir(path, ziph):
                         continue
 
 
-if __name__ == '__main__':
-    logging.info("zipファイルにしています...")
-    zipf = zipfile.ZipFile(FILE_NAME, 'w', zipfile.ZIP_DEFLATED)
-    zipdir('.', zipf)
-    zipf.close()
+logging.info("zipファイルにしています...")
+zipf = zipfile.ZipFile(FILE_NAME, 'w', zipfile.ZIP_DEFLATED)
+zipdir('.', zipf)
+zipf.close()
 
-    logging.info("zipファイルが生成されました")
-    logging.info("ファイルの場所:\n" + os.path.abspath(FILE_NAME))
-    logging.info("10秒後にこの画面を閉じます")
+logging.info("zipファイルが生成されました")
+logging.info("ファイルの場所:\n" + os.path.abspath(FILE_NAME))
 
-    sleep(10)
+
+with open(FILE_NAME, 'rb') as file:
+    logging.info('sha1:  ' +  hashlib.sha1(file.read()).hexdigest())
+
+logging.info("10秒後にこの画面を閉じます")
+
+sleep(10)
 
 logging.info("プログラムを終了します")
