@@ -6,7 +6,15 @@
 
   "overrides": [
     {"predicate": {"custom_model_data":1}, "model": "minecraft:item/item/amethyst_wand"},
-    {"predicate": {"custom_model_data":2}, "model": "minecraft:item/item/moon_wand"},
+    {"predicate": {"custom_model_data":2}, "model": "minecraft:item/item/club"},
+    {"predicate": {"custom_model_data":3}, "model": "minecraft:item/item/dynamite"},
+    {"predicate": {"custom_model_data":4}, "model": "minecraft:item/item/health_wand"},
+    {"predicate": {"custom_model_data":5}, "model": "minecraft:item/item/magic_wand"},
+    {"predicate": {"custom_model_data":6}, "model": "minecraft:item/item/moon_wand"},
+    {"predicate": {"custom_model_data":7}, "model": "minecraft:item/item/spear"},
+    {"predicate": {"custom_model_data":8}, "model": "minecraft:item/item/spear2"},
+    {"predicate": {"custom_model_data":9}, "model": "minecraft:item/item/stick"},
+    {"predicate": {"custom_model_data":10}, "model": "minecraft:item/item/wand"},
     {"predicate": {"custom_model_data":1001}, "model": "minecraft:item/entity/target_dummy"}
   ]
 }

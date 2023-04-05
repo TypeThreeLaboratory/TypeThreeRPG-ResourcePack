@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/moon_wand"
+    "layer0": "minecraft:item/item/moon_wand"
   }
 }
