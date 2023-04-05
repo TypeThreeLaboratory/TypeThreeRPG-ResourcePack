@@ -15,6 +15,10 @@
     {"predicate": {"custom_model_data":8}, "model": "minecraft:item/item/spear2"},
     {"predicate": {"custom_model_data":9}, "model": "minecraft:item/item/stick"},
     {"predicate": {"custom_model_data":10}, "model": "minecraft:item/item/wand"},
+    {"predicate": {"custom_model_data":11}, "model": "minecraft:item/item/copper_coin"},
+    {"predicate": {"custom_model_data":12}, "model": "minecraft:item/item/gold_coin"},
+    {"predicate": {"custom_model_data":13}, "model": "minecraft:item/item/platinum_coin"},
+    {"predicate": {"custom_model_data":14}, "model": "minecraft:item/item/silver_coin"},
     {"predicate": {"custom_model_data":1001}, "model": "minecraft:item/entity/target_dummy"}
   ]
 }
