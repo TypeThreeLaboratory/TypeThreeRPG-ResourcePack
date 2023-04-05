@@ -14,4 +14,6 @@ TypeThreeRPGのリソースパック
 
 エンティティのテクスチャの保存場所を pack/assets/minecraft/textures/entity/ にしたかったけど
 
-そうするとなぜかテクスチャを読み込んでくれなかったので 仕方なく pack/assets/minecraft/textures/item/entity/ にした
+そうするとなぜかテクスチャを読み込んでくれなかったので
+
+仕方なく pack/assets/minecraft/textures/item/entity/ にした
