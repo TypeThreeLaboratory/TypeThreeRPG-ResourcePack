@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/amethyst_shard"
+  },
+
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/item/amethyst_wand"},
+    {"predicate": {"custom_model_data":2}, "model": "minecraft:item/item/moon_wand"},
+    {"predicate": {"custom_model_data":1001}, "model": "minecraft:item/entity/target_dummy"}
+  ]
+}
